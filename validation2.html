@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./validation2.css">
+    <script src="./validation2.js"></script>
+</head>
+<body>
+   <div class="conteiner">
+    <form  onsubmit="handleSubmit(event)" id="form">
+<h1 class="head">validation form</h1>
+<label for="fname" style="text-align: center; font-size: 20px;">fname</label>
+<input type="text" placeholder="fname" id="fname" class="fname" onchange="data1()">
+<label for="lname" style="text-align: center; font-size: 20px;">lname</label>
+<input type="text" placeholder="lname" id="lname" class="lname" onchange="data1()">
+<br>
+<label for="email" style="text-align: center; font-size: 20px;">email</label>
+<input type="email" placeholder="email" id="email" class="email" onchange="data1()">
+<labe" style="text-align: center; font-size: 20px;">contact</label>
+<input type="contact" placeholder="contact" id="contact" class="contact" onchange="data1()">
+<br>
+<label" style="text-align: center; font-size: 20px;">url-1</label>
+<input type="url" placeholder="url1" id="url1" class="url1" onchange="data1()">
+
+<br>
+<label" style="text-align: center; font-size: 20px;">url-2</label>
+<input type="url" placeholder="url2" id="url2" class="url2" onchange="data1()">
+
+<br>
+<label" style="text-align: center; font-size: 20px;">password</label>
+<input type="password" placeholder="password" id="password" class="password" onchange="data1()">
+
+<br>
+<label" style="text-align: center; font-size: 20px;">conform password</label>
+<input type="password" placeholder="conform password" id="cpassword" class="cpassword" onchange="data1()">
+<input type="submit" value="submit" class="submit">
+    </form>
+   </div>
+   <table class="table" style="border: 1px solid black;">
+    <tr >
+        <th style="border: 1px solid black;">name</th>
+        <th style="border: 1px solid black;">email</th>
+        <th style="border: 1px solid black;">url-1</th>
+        <th style="border: 1px solid black;">url-2</th>
+        <th style="border: 1px solid black;">password</th>
+    </tr>
+    <tr>
+ <td id="name" style="border: 1px solid black;"></td>
+ <td id="email-1" style="border: 1px solid black;"></td>
+ <td  style="border: 1px solid black;"><a href="" id="url-1"></a></td>
+ <td  style="border: 1px solid black;"><a href="" id="url-2"></a></td>
+ <td id="password-1" style="border: 1px solid black;"></td>
+    </tr>
+   </table>
+</body>
+</html>
